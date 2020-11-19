@@ -154,6 +154,7 @@ footer{
     .course-img-desc{
         display: flex;
          flex-direction:row;
+        width:100%;
     }
     .btn{
         width:50%;
