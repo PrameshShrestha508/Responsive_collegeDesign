@@ -14,7 +14,7 @@ h1{
 .container-flex{
     display:flex;
     flex-direction: column;
-    justify-content:space-between;
+     justify-content:space-between; 
 }
 .btn{
     background-color:red;
@@ -83,6 +83,7 @@ nav li{
 .about-img img{
     min-height:200px;
     height:400px;
+  
 }
 .about-desc{
 font-size:1.5em;
@@ -104,26 +105,26 @@ margin-left:2em;
     /* height:60px; */
     display:flex;
     flex-direction: column;
-    justify-content:space-between;
-/*     margin:0 3em;  */
-    width:90%;
+ justify-content:space-between;
+    /* margin:auto; */
+  width:90%; 
 }
 .course1{
     display:flex;
     flex-direction:column;
-    margin:1em 0 0 2em;
-    
+     margin:1em 0 0 2em; 
+  
 }
 .course2{
     display:flex;
     flex-direction:column;
-    margin:1em 0 0 2em;
+     margin:1em 0 0 2em; 
    
 }
 .course3{
     display:flex;
     flex-direction:column;
-    margin:1em 0 0 2em;
+     margin:1em 0 0 2em; 
     
 }
 .faculty{
@@ -155,8 +156,9 @@ footer{
     .course-img-desc{
         display: flex;
          flex-direction:row;
-       
     }
+
+
     .btn{
         width:50%;
     }
