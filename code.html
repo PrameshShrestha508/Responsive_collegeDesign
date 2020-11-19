@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="code.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>College</title>
 </head>
 <body>
@@ -14,7 +16,10 @@
                 <h1>Butwal Multiple Campus</h1>
                 <p>A TU afflilated college</p>
             </div>
-            <nav>
+            <div class="checkbtn">
+                    <i class="fas fa-bars checkbtn"></i>
+             </div>
+            <nav class="nav">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="#about">About us</a></li>
@@ -22,6 +27,7 @@
                     <li><a href="">Gallery</a></li>
                 </ul>
             </nav>
+            
         </div>
     </header>
     <section id="banner">
@@ -119,4 +125,15 @@
      </footer>
 
 </body>
+<script>
+var checkbtn = document.querySelector('.checkbtn');
+var nav = document.querySelector('.nav');
+
+checkbtn.addEventListener('click',function(){
+   nav.classList.toggle('active')
+
+})
+
+
+</script>
 </html>
