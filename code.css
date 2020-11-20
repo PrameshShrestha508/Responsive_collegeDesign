@@ -24,6 +24,10 @@ h1{
     width:100%;
 }
 /* Navbar starts */
+/*.site-title{
+    display:flex;
+    flex-direction: row;
+}*/
 .site-title h1{
     color:white;
 }
@@ -56,15 +60,29 @@ nav li{
     padding-top:2em;
 }
 
+.search-bar input[type="text"]{
+    font-size:1em;
+    padding:5px;
+/*    margin:2em;*/
+border:none;
+border-radius:2px;
+}
+.search-bar button{
+    height:32px;
+    padding:5px;
+}
+
 /* toggle the button of navbar */
 .checkbtn{
-    font-size: 30px;
+ font-size: 30px;
  color: white;
- line-height:80px;
-float:right;
+ line-height:70px;
+float:left;
 cursor: pointer;
  display: block; 
 margin-left:10px;
+top:30px;
+position:absolute;
 }
 .checkbtn.active{
     display:none;
@@ -154,9 +172,9 @@ margin-left:1em;
     text-align:center;
     font-size:2em;
 }
-.courses-button{
+/*.courses-button{
     border:2px solid red;
-}
+}*/
 .desc{
     padding:20px;
     border:#cccccc solid 1px;
@@ -192,4 +210,10 @@ footer{
     .btn{
         width:50%;
     }
+    .site-title{
+    width:50%;
+    }
+.search-bar{
+    margin-right:10%;
+}
 }
